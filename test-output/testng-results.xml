@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-09T04:06:34 IST" name="Suite" finished-at="2023-08-09T04:09:24 IST" duration-ms="169717">
+    <groups>
+    </groups>
+    <test started-at="2023-08-09T04:06:34 IST" name="Test" finished-at="2023-08-09T04:09:24 IST" duration-ms="169717">
+      <class name="com.mbm.testcases.AmazonDemoTest">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.mbm.testcases.AmazonDemoTest@783a467b]" started-at="2023-08-09T04:06:36 IST" name="setUp" finished-at="2023-08-09T04:08:41 IST" duration-ms="124861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4f453e63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.mbm.testcases.AmazonDemoTest@783a467b]" started-at="2023-08-09T04:06:36 IST" name="setUp" finished-at="2023-08-09T04:06:58 IST" duration-ms="21475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7c9bdee9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="amazonTestLaptops(java.util.Map)[pri:0, instance:com.mbm.testcases.AmazonDemoTest@783a467b]" started-at="2023-08-09T04:06:58 IST" name="amazonTestLaptops" description="To check whether the amazon laptops test is work or not" data-provider="getData" finished-at="2023-08-09T04:07:16 IST" duration-ms="18662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=, password=, browser=chrome, testname=amazonTestLaptops, execute=yes, menutext=Laptops, username=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTestLaptops -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mbm.testcases.AmazonDemoTest@783a467b]" started-at="2023-08-09T04:07:16 IST" name="tearDown" finished-at="2023-08-09T04:07:18 IST" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="amazonTestMobiles(java.util.Map)[pri:0, instance:com.mbm.testcases.AmazonDemoTest@783a467b]" started-at="2023-08-09T04:08:41 IST" name="amazonTestMobiles" description="To check whether the amazon mobiles test is work or not" data-provider="getData" finished-at="2023-08-09T04:09:13 IST" duration-ms="32328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=, password=, browser=firefox, testname=amazonTestMobiles, execute=yes, menutext=All Mobile Phones, username=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTestMobiles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mbm.testcases.AmazonDemoTest@783a467b]" started-at="2023-08-09T04:09:13 IST" name="tearDown" finished-at="2023-08-09T04:09:24 IST" duration-ms="10440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mbm.testcases.AmazonDemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
